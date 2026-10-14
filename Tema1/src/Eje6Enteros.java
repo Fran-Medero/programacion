@@ -8,6 +8,7 @@ public class Eje6Enteros {
         int num = tec.nextInt();
         System.out.println("Introduce un número B");
         int num2= tec.nextInt();
+
         int resultado = 0;
 
         for (int i = 0; i < num2; i++){

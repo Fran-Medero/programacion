@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Eje8SN {
@@ -24,7 +25,8 @@ public class Eje8SN {
 
             do {
                 System.out.println("Deseas introducir mas numeros (S/N)");
-                s = tec.next();
+                //tuUpperCase nos ayuda para las minusculas y las mayusculas, le da igual una que otra
+                s = tec.next().toUpperCase();
             } while (!s.equals("S") && !s.equals("N"));
 
         } while (s.equals("S"));

@@ -15,11 +15,25 @@ public class Eje9perfecto {
         int num;
         int contador = 0;
 
+        //Pedimos el numero y validamos
         do {
-            System.out.println("Introduce un númeor");
+            System.out.println("Introduce un número");
             num = tec.nextInt();
+        }while (num <= 0);
 
-            if (num > 0)
-        }while
+        //Buscar los divisores y sumarlos
+        //Este for prueba todos los números desde el 1 hasta el num - 1
+        for (int i = 1; i < num; i++){
+            //El % da el resto de la división. Si el resto es 0, no sobra nada, así que i es divisor.
+            if (num % i == 0){
+                contador = contador + i;
+            }
+        }
+
+        if (contador == num) {
+            System.out.printf("El numero " + num + " es perfecto");
+        } else {
+            System.out.printf("El numero " + num + " no es perfecto");
+        }
     }
 }

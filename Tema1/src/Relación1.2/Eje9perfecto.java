@@ -20,6 +20,6 @@ public class Eje9perfecto {
             num = tec.nextInt();
 
             if (num > 0)
-        }
+        }while
     }
 }

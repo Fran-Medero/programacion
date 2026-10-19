@@ -26,7 +26,7 @@ public class Eje9perfecto {
         for (int i = 1; i < num; i++){
             //El % da el resto de la división. Si el resto es 0, no sobra nada, así que i es divisor.
             if (num % i == 0){
-                contador = contador + i;
+                contador += i;
             }
         }
 

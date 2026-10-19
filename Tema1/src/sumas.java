@@ -15,7 +15,6 @@ public class sumas {
         for (int i = 1; i <= num; i++){
             suma += i;
         }
-
         System.out.println("La suma de " + num + " es " + suma);
     }
 }

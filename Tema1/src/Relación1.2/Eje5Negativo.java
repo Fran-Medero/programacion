@@ -11,7 +11,6 @@ public class Eje5Negativo {
 
         int num = 0;
         boolean salir = false;
-        String input = "";
         while (!salir){
             System.out.println("Introduce un número");
             int num1 = tec.nextInt();
@@ -22,6 +21,6 @@ public class Eje5Negativo {
                 num++;
             }
         }
-        System.out.println("Has metido los " + num + " números");
+        System.out.println("Has metido " + num + " números");
     }
 }

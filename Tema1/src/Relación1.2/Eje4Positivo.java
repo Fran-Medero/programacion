@@ -8,6 +8,8 @@ public class Eje4Positivo {
         Scanner tec = new Scanner(System.in);
         System.out.println("Dime un número positivo");
         int num = 0;
+        int sum = 0;
+
         do {
             System.out.println("Introduce un número");
             num = tec.nextInt();
@@ -19,8 +21,8 @@ public class Eje4Positivo {
         } while (num <= 0);
 
         for (int n1 = 1; n1 <= num; n1++){
-            int sum = num + n1;
-            System.out.println("La suma de " + num +" ");
+            sum += n1;
+            System.out.println("La suma de " + num + " es " + sum);
         }
     }
 }

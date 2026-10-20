@@ -13,7 +13,5 @@ public class NumeroInversa {
             inversa = inversa * 10 + digito; // lo añade al final del resultado
             num = num / 10;                  // quita el último dígito
         }
-
-        System.out.println("El numero a la inversa es " + inversa);
     }
 }

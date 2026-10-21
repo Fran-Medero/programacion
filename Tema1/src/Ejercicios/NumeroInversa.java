@@ -1,3 +1,5 @@
+package Ejercicios;
+
 import java.util.Scanner;
 
 public class NumeroInversa {
@@ -7,11 +9,13 @@ public class NumeroInversa {
         System.out.println("Introduce un numero para dartelo a la inversa");
         int num = tec.nextInt();
         int inversa = 0;
+        int ud = 0;
 
-        while (num > 0) {
-            int digito = num % 10;          // saca el último dígito
-            inversa = inversa * 10 + digito; // lo añade al final del resultado
-            num = num / 10;                  // quita el último dígito
+        while (num > 0){
+            ud = num % 10;
+            inversa = inversa * 10 + ud;
+            num = num / 10;
         }
+        System.out.println("El numero de a la inversa es " + inversa);
     }
 }

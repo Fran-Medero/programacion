@@ -70,15 +70,22 @@ public class MiEntradaSalida {
     }
 
     public static char leerSiNo(String mensaje) {
-        System.out.println(mensaje + ": ");
+        System.out.println(mensaje);
         char volver;
-        do {
-            System.out.print("¿Quieres continuar?");
-            volver = tec.nextLine().toLowerCase().charAt(0);
-        }while (volver != 'S' && volver != 'N');
-        return volver;
+       // volver = 'S';
 
+        do {
+            do {
+                System.out.print("¿Quieres continuar? (S/N)");
+                volver = tec.nextLine().toUpperCase().charAt(0);
+                if (volver != 'S' && volver != 'N'){
+                    System.out.println("Debes decir si quieres continuiar o no");
+                }
+            } while (volver != 'S' && volver != 'N');
+        }while (volver != 'N');
+        return volver;
     }
+
     // Metodo para calcular el radio de un circulo.
     public static  double calcularAreaCirculo(double radio) {
         return Math.PI * Math.pow(radio, 2);
@@ -87,7 +94,7 @@ public class MiEntradaSalida {
 
 
     static void main(String[] args) {
-        /* Este es para el primer metodo
+    /* Este es para el primer metodo
 
         String nombre = leerCadena("¿Cómo te llamas?");
         System.out.println("Hola " + nombre);
@@ -107,8 +114,11 @@ public class MiEntradaSalida {
 
         */
 
-        char caracter = leerCaracter("Introduce un caracter");
-        System.out.println(caracter);
+        // char caracter = leerCaracter("Introduce un caracter");
+        // System.out.println(caracter);
 
+        char continuar = leerSiNo("Que quieres hacer?");
+        System.out.println(continuar);
     }
 }
+

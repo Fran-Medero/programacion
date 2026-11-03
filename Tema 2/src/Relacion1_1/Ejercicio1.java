@@ -1,24 +1,22 @@
 package Relacion1_1;
-
-//1. Crea un programa que sume todas las posiciones pares de un array de enteros.
+/*Crea un programa que detecte cuántos números negativos hay en un array de
+enteros */
 
 import java.util.Scanner;
 
 public class Ejercicio1 {
-
     Scanner tec = new Scanner(System.in);
     static void main(String[] args) {
-        int[] arrayEnteros = {1,2,3,4,5,6};
-        int resultado= sumaPosicionesPares(arrayEnteros);
-        System.out.println("La suma es " + resultado);
-
+        int[] arraysNumerosNegativos = {-1,2,-4,-6,5};
+        int resultado = cuentaNumerosNegativos(arraysNumerosNegativos);
+        System.out.println("Hay " + resultado + " números negativos");
     }
 
-    public static int sumaPosicionesPares(int[] arrayEnteros){
+    public static int cuentaNumerosNegativos(int[] array){
         int suma = 0;
-        for (int i = 0; i < arrayEnteros.length; i++) {
-            if (i % 2 == 0){
-                suma = suma + arrayEnteros[i];
+        for (int i = 0; i < array.length; i++){
+            if (array[i] < 0){
+                suma += 1;
             }
         }
         return suma;

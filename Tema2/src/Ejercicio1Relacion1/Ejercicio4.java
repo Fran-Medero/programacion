@@ -13,6 +13,7 @@ package Ejercicio1Relacion1;
 //de porcentajes para los valores contados (es decir, la suma de todos los
 //porcentajes entre 6 (los valores 0, 1, 2, 3, 4 y 5))
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class Ejercicio4 {
@@ -25,15 +26,24 @@ public class Ejercicio4 {
         int[] terminaciones = new int[10];
         // Creamos el número aleatorio.
         Random r = new Random();
-        // Creamos la variable suma antes del for.
-        int suma = 0;
+        // Creamos la variable numero antes del for.
+        int numero = 0;
+        // Creamos la variable donde haremos las medias de veces que se han repetido.
+        double media = 0.0;
+        // Creamos ahora para el porcentaje total
+        double porcentajeTotal = 0.0;
 
         for (int i = 0; i < TOTAL_NUMEROS; i++) {
             int numerosAleatorios = r.nextInt(0, 100);
-            suma += numerosAleatorios;
-
+            media += numerosAleatorios;
             // Guardamos las terminaciones en nuestra Arrays que creamos para dicha acción.
             terminaciones[numerosAleatorios % 10]++;
         }
+        System.out.println("La media de los números es " + (media / TOTAL_NUMEROS));
+        for (int i = 0; i < 10; i++) {
+            System.out.println("El " + i + " se ha repetido " + terminaciones[i] + " veces. Esto equivale a un " + ((terminaciones[i]/(double)TOTAL_NUMEROS) * 100) + "%");
+            porcentajeTotal += ((terminaciones[i]/(double)TOTAL_NUMEROS)* 100);
+        }
+        System.out.println("La suma de  todos los porcentajes es equivalente al " + porcentajeTotal + "% . El " + (porcentajeTotal/10) + " medio para cada contador es de " + porcentajeTotal);
     }
 }

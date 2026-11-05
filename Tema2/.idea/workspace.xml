@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6467b6dc-d43a-4f57-8361-a82a72b47d8c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Tema2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tema2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/MiEntradaSalida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/numerosAleatorios.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/BucleDoWhile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/BucleFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Conversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje10Solicitar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje2Multiplicar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje3ParImpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje4Positivo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje5Negativo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje6Enteros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje7Solicite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje8SN.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Eje9perfecto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/EjeMultiplos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Ejercicio1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/EjercicioProblema4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Ejercicios/NumeroInversa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Ejercicios/Relacion1.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Ejercicios/media.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/NumeroSecreto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Practica2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Practica3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Practica4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Practica5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Practica6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Problema2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Problema3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Problema4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Problema5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Problema6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Problema7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/ProblemasJava3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/Prueba1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/arbolnavidad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/basexexponente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/borde.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/calcularproducto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/cuadradobucle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/cuentapositivos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/edades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/ejemploBucle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/menoramayor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/multiplo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/notasAlumnos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/numerodecifras.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/numerosPrimos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/paroimpar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/practicas1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/rectangulobucle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/sumas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/tablamultiplicar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/programacion/todosLosDivisores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programacion.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3Lg6xxRvpbBahYhCidqs4AHn12H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Ejercicio4.executor": "Run",
+    "Application.Ejercicio6.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6467b6dc-d43a-4f57-8361-a82a72b47d8c" name="Changes" comment="" />
+      <created>1793863615927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793863615927</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6467b6dc-d43a-4f57-8361-a82a72b47d8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Tema2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tema2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/Ejercicio1Relacion1/Ejercicio6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/Ejercicio1Relacion1/Ejercicio6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../main/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio2.class" beforeDir="false" />
@@ -93,10 +90,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3Lg6xxRvpbBahYhCidqs4AHn12H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -104,6 +101,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Ejercicio10.executor": "Run",
+    "Application.Ejercicio12.executor": "Run",
     "Application.Ejercicio4.executor": "Run",
     "Application.Ejercicio6.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",

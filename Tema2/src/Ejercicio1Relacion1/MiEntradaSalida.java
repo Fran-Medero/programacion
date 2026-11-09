@@ -76,7 +76,6 @@ import java.util.Scanner;
             char volver;
             // volver = 'S';
 
-            do {
                 do {
                     System.out.print("¿Quieres continuar? (S/N)");
                     volver = tec.nextLine().toUpperCase().charAt(0);
@@ -84,7 +83,6 @@ import java.util.Scanner;
                         System.out.println("Debes decir si quieres continuiar o no");
                     }
                 } while (volver != 'S' && volver != 'N');
-            }while (volver != 'N');
             return volver;
         }
 

@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6467b6dc-d43a-4f57-8361-a82a72b47d8c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tema2/Ejercicio1Relacion1/Ejercicio6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/Ejercicio1Relacion1/Ejercicio6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ejercicio1Relacion1/Ejercicio9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../main/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/Tema2/Ejercicio1Relacion1/Ejercicio2.class" beforeDir="false" />
@@ -73,7 +73,6 @@
       <change beforePath="$PROJECT_DIR$/../out/production/programacion/sumas.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/programacion/tablamultiplicar.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out/production/programacion/todosLosDivisores.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../programacion.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +102,10 @@
   "keyToString": {
     "Application.Ejercicio10.executor": "Run",
     "Application.Ejercicio12.executor": "Run",
+    "Application.Ejercicio13.executor": "Run",
     "Application.Ejercicio4.executor": "Run",
     "Application.Ejercicio6.executor": "Run",
+    "Application.Ejercicio9.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -120,7 +121,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -143,6 +144,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

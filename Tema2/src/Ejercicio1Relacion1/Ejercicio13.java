@@ -11,16 +11,18 @@ public class Ejercicio13 {
     static void main(String[] args) {
         int[] numerosEnPila = new int[10];
         int preguntaUsuario = MiEntradaSalida.leerEntero("¿Quieres 1.Apilar, 2.Desapilar?");
-        switch (preguntaUsuario) {
-            case 1:
-                int numero = MiEntradaSalida.leerEntero("¿Qué número quieres añadir?");
-                numerosEnPila = apilarNumerosAtras(numerosEnPila, preguntaUsuario);
-                break;
-            case 2:
-                numerosEnPila = desapilarNumeros(numerosEnPila, preguntaUsuario);
-                break;
-            default:
+        for (int i = 0; i < numerosEnPila.length -1 -i; i++) {
+            switch (preguntaUsuario) {
+                case 1:
+                    int numero = MiEntradaSalida.leerEntero("¿Qué número quieres añadir?");
+                    numerosEnPila = new int[]{apilarNumerosAtras(numerosEnPila, preguntaUsuario)};
+                    break;
+                case 2:
+                    numerosEnPila = new int[]{desapilarNumeros(numerosEnPila, preguntaUsuario)};
+                    break;
+                default:
 
+            }
         }
 
         System.out.println(preguntaUsuario);
@@ -33,7 +35,13 @@ public class Ejercicio13 {
         return contador;
     }
 
-    static public int[] desapilarNumeros(int[] arrays, int b) {
-        in
+    static public int desapilarNumeros(int[] arrays, int b) {
+        int contador = 0;
+        int[] arrayAuxiliar = new int[arrays.length];
+        for (int i = 0; i < arrays.length -1 -i; i++) {
+            b = arrays[contador++];
+            arrays[contador++] = arrayAuxiliar[i];
+        }
+        return contador;
     }
 }

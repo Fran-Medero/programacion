@@ -7,41 +7,51 @@ package Ejercicio1Relacion1;
 //para eliminarlos. Muestra el array tras cada una de las operaciones. La pila tendrá
 //como máximo 10 números enteros.
 
+import java.util.Arrays;
+
 public class Ejercicio13 {
-    static void main(String[] args) {
+    static int contador = 0; // cuántos números hay guardados en la pila
+
+    public static void main(String[] args) {
         int[] numerosEnPila = new int[10];
-        int preguntaUsuario = MiEntradaSalida.leerEntero("¿Quieres 1.Apilar, 2.Desapilar?");
-        for (int i = 0; i < numerosEnPila.length -1 -i; i++) {
+        int preguntaUsuario;
+
+        do {
+            preguntaUsuario = MiEntradaSalida.leerEntero("¿Quieres 1.Apilar, 2.Desapilar, 0.Salir?");
             switch (preguntaUsuario) {
                 case 1:
                     int numero = MiEntradaSalida.leerEntero("¿Qué número quieres añadir?");
-                    numerosEnPila = new int[]{apilarNumerosAtras(numerosEnPila, preguntaUsuario)};
+                    apilarNumerosAtras(numerosEnPila, numero);
+                    System.out.println(Arrays.toString(Arrays.copyOf(numerosEnPila, contador)));
                     break;
                 case 2:
-                    numerosEnPila = new int[]{desapilarNumeros(numerosEnPila, preguntaUsuario)};
+                    desapilarNumeros(numerosEnPila);
+                    System.out.println(Arrays.toString(Arrays.copyOf(numerosEnPila, contador)));
+                    break;
+                case 0:
+                    System.out.println("Hasta luego");
                     break;
                 default:
-
+                    System.out.println("Opción no válida");
             }
-        }
-
-        System.out.println(preguntaUsuario);
-
+        } while (preguntaUsuario != 0);
     }
 
-    static public int apilarNumerosAtras(int[] array, int a) {
-        int contador = 0;
-        a = array[contador++];
-        return contador;
+    static public void apilarNumerosAtras(int[] array, int a) {
+        if (contador == array.length) {
+            System.out.println("La pila está llena");
+        } else {
+            array[contador] = a; // 'a' es el número que mete el usuario
+            contador++;
+        }
     }
 
-    static public int desapilarNumeros(int[] arrays, int b) {
-        int contador = 0;
-        int[] arrayAuxiliar = new int[arrays.length];
-        for (int i = 0; i < arrays.length -1 -i; i++) {
-            b = arrays[contador++];
-            arrays[contador++] = arrayAuxiliar[i];
+    static public void desapilarNumeros(int[] arrays) {
+        if (contador == 0) {
+            System.out.println("La pila está vacía");
+        } else {
+            contador--;
+            System.out.println("Se ha sacado el " + arrays[contador]);
         }
-        return contador;
     }
 }

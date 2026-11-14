@@ -1,7 +1,7 @@
 package Ejercicio1Relacion1;
 
 import java.util.Scanner;
-/* Crea manuealmente un Arrays de 5 enteros y montrais los elementos en
+/* Crea manualmente un Arrays de 5 enteros y montais los elementos en
 pantalla*/
 
     public class Ejercicio1 {

@@ -12,13 +12,13 @@ public class Ejercicio1 {
     }
 
     static public void comprobarMatriz(int[][] matriz) {
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
+        for (int i = 0; i < matriz.length && !numerosNegativos; i++) {
+            for (int j = 0; j < matriz[i].length && !numerosNegativos; j++) {
                 if (matriz[i][j] < 0) {
                     numerosNegativos = true;
                 }
             }
         }
-        System.out.print("Hay numeros negatvios?" + "= " + numerosNegativos );
+        System.out.print("Hay numeros negatvios?" + " = " + numerosNegativos );
     }
 }

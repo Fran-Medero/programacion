@@ -33,6 +33,14 @@ public class Ejercicio8 {
      * @return  el resultado de la suma de las dos matrices
      */
     static public int[][] sumaContenidoMatriz(int[][] matriz, int[][] matriz2) {
+        // Para crear una matriz del mismo tamaño que el anterior
+//        int[][] matrizResultado = new int[matriz.length][];
+//
+//        for (int i = 0; i < matriz.length; i++) {
+//            matrizResultado[i] = new int[matriz[i].length];
+//        }
+
+
         if (!Ejercicio7.comparartamañoMatrices(matriz, matriz2)) {
             System.out.println("No son el mismo tamaño, no se pueden sumar");
         } else {

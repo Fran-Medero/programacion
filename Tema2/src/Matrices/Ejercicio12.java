@@ -1,6 +1,6 @@
 package Matrices;
 
-// Crea un método que transforme una matriz CUADRADA (tienes que realizar dicha
+// Crea un metodo que transforme una matriz CUADRADA (tienes que realizar dicha
 //comprobación) que recibe por parámetro, en otra, que debe ser su reflejo en diagonal (de
 //arriba a la izquierda a abajo a la derecha):
 //1 2 3 4 5 1 6 3 9 0
@@ -39,10 +39,8 @@ public class Ejercicio12 {
      */
     static public boolean siLaMatrizEsCuadrada(int[][] matriz) {
         for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
-                if (matriz[i].length != matriz[j].length) {
-                    return false;
-                }
+            if (matriz.length != matriz[i].length) {
+                return false;
             }
         }
         return true;

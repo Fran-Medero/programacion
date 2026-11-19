@@ -35,10 +35,11 @@ public class Ejercicio13 {
      * @return  devuelve la matriz cambiada.
      */
     static public int[][] resultadoMatrizEnDiagonal(int[][] matriz) {
+
+//        Crear una matriz igual que la otra
+//        resultadoMatriz = new int[matriz.length][];
 //        for (int i = 0; i < matriz.length; i++) {
-//            for (int j = 0; j < matriz[i].length; j++) {
-//                resultadoMatriz[i][j] = matriz[matriz.length -1][matriz[0].length -1];
-//            }
+//            resultadoMatriz[i] = new int[matriz[i].length];
 //        }
 
         for (int i = 0; i < matriz.length; i++) {
